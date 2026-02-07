@@ -7,7 +7,11 @@ brew install tmux
 
 ## usage
 ```
+# local
 tmux -CC attach
+
+# devserver, can be setup with iterm2
+ssh devgpu011.lco3.facebook.com -t "tmux -CC attach -t work || tmux -CC new -s work"
 ```
 
 # company setup
