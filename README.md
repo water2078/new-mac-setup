@@ -1,9 +1,34 @@
 # new-mac-setup
 
+Tmux:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install tmux
 ```
+
+NeoVim & LazyVim:
+ask claude code to setup https://www.lazyvim.org/installation
+```bash
+brew install nvim
+brew install ripgrep fd lazygit node
+```
+
+| Tool | Used for |
+|------|----------|
+| ripgrep | Live grep / search across files |
+| fd | Fuzzy file finder |
+| lazygit | Git UI inside Neovim |
+| node | Some LSP servers need it |
+
+Key LazyVim shortcuts to know
+
+| Shortcut | Action |
+|----------|--------|
+| `<Space>` | Leader key (opens command menu) |
+| `<Space>ff` | Find files |
+| `<Space>fg` | Live grep |
+| `<Space>e` | File explorer |
+| `<Space>gg` | LazyGit |
 
 ## usage
 ```
