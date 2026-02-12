@@ -5,7 +5,6 @@ Tmux:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install tmux
 ```
-
 NeoVim & LazyVim:
 ask claude code to setup https://www.lazyvim.org/installation
 ```bash
@@ -40,6 +39,14 @@ ssh devgpu011.lco3.facebook.com -t "tmux -CC attach -t work || tmux -CC new -s w
 ```
 
 # company setup
+## nvim
+```
+# backup your old config
+mv ~/.config/nvim{,.bak}
+# clone this one into the correct spot
+git clone git@github.com:seemethere/nvim-config ~/.config/nvim/
+```
+## claude
 ```
 claude-templates skill skill-creator install
 claude-templates skill google-sheets install
