@@ -10,6 +10,8 @@ ask claude code to setup https://www.lazyvim.org/installation
 ```bash
 brew install nvim
 brew install ripgrep fd lazygit node
+# font for nvim display
+brew install --cask font-jetbrains-mono-nerd-font
 ```
 
 | Tool | Used for |
