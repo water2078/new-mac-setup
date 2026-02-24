@@ -49,24 +49,17 @@ mv ~/.config/nvim{,.bak}
 git clone git@github.com:seemethere/nvim-config ~/.config/nvim/
 ```
 ## claude
+```bash
+# Or run the setup script directly:
+./claude-code-setup.sh
 ```
-claude-templates skill skill-creator install
-claude-templates skill google-sheets install
-claude-templates skill google-docs install
-claude-templates skill google-api-proxy install
-claude-templates skill diff-search install
-claude-templates skill calendar install
-claude-templates skill text-to-google-doc install
-claude-templates skill eats install
 
-claude-templates agent code-reviewer install
-claude-templates agent coder install
+| Category | Components |
+|----------|------------|
+| Skills (9) | skill-creator, google-sheets, google-docs, google-api-proxy, diff-search, calendar, text-to-google-doc, eats, workplace |
+| Agents (2) | code-reviewer, coder |
+| Commands (3) | save, restore, learn |
+| Plugins (1) | 10x-engineer |
+| MCP Servers (6) | metamate, workplace, google_docs, google_sheets, google_chat, graphql_query |
 
-claude-templates command save install
-claude-templates command restore install
-claude-templates command learn install
-
-claude-templates plugin 10x-engineer install
-
-claude-templates mcp metamate install
-```
+Meta org plugins (meta, knowledge_search, code_provenance, llm-rules, trajectory) auto-install on first `claude` launch.
