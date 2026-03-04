@@ -6,13 +6,15 @@ Tmux:
 brew install tmux
 ```
 NeoVim & LazyVim:
-ask claude code to setup https://www.lazyvim.org/installation
+ask claude code to setup follow https://www.lazyvim.org/installation or 
 ```bash
 brew install nvim
 brew install ripgrep fd lazygit node
 # font for nvim display
 brew install --cask font-jetbrains-mono-nerd-font
 ```
+<img width="2148" height="1276" alt="image" src="https://github.com/user-attachments/assets/d20f3ba7-5c7e-4e4d-884a-7ce1aedbf0c4" />
+
 
 | Tool | Used for |
 |------|----------|
