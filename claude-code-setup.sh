@@ -28,6 +28,7 @@ claude-templates command learn install
 
 echo "=== Installing Claude Code Plugins ==="
 claude-templates plugin 10x-engineer install
+claude-templates plugin ralph-wiggum install
 
 echo "=== Installing Claude Code MCP Servers ==="
 claude-templates mcp metamate install
@@ -36,6 +37,7 @@ claude-templates mcp google-docs install
 claude-templates mcp google-sheets install
 claude-templates mcp gchat install
 claude-templates mcp graphql-query install
+
 
 echo "=== Done! ==="
 echo "Installed: 11 skills, 2 agents, 3 commands, 1 plugin, 6 MCP servers"
