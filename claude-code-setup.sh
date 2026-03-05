@@ -32,10 +32,10 @@ claude-templates plugin 10x-engineer install
 echo "=== Installing Claude Code MCP Servers ==="
 claude-templates mcp metamate install
 claude-templates mcp workplace install
-claude-templates mcp google_docs install
-claude-templates mcp google_sheets install
-claude-templates mcp google_chat install
-claude-templates mcp graphql_query install
+claude-templates mcp google-docs install
+claude-templates mcp google-sheets install
+claude-templates mcp google-chat install
+claude-templates mcp graphql-query install
 
 echo "=== Done! ==="
 echo "Installed: 11 skills, 2 agents, 3 commands, 1 plugin, 6 MCP servers"
