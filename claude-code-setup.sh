@@ -14,6 +14,8 @@ claude-templates skill calendar install
 claude-templates skill text-to-google-doc install
 claude-templates skill eats install
 claude-templates skill workplace install
+claude-templates skill paste install
+claude-templates skill mast-debugging install
 
 echo "=== Installing Claude Code Agents ==="
 claude-templates agent code-reviewer install
@@ -36,5 +38,5 @@ claude-templates mcp google_chat install
 claude-templates mcp graphql_query install
 
 echo "=== Done! ==="
-echo "Installed: 9 skills, 2 agents, 3 commands, 1 plugin, 6 MCP servers"
+echo "Installed: 11 skills, 2 agents, 3 commands, 1 plugin, 6 MCP servers"
 echo "Note: Meta org plugins (meta, knowledge_search, code_provenance, llm-rules, trajectory) auto-install on first claude launch."
