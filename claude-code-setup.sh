@@ -34,7 +34,7 @@ claude-templates mcp metamate install
 claude-templates mcp workplace install
 claude-templates mcp google-docs install
 claude-templates mcp google-sheets install
-claude-templates mcp google-chat install
+claude-templates mcp gchat install
 claude-templates mcp graphql-query install
 
 echo "=== Done! ==="
