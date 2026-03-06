@@ -48,6 +48,8 @@ brew install --cask font-jetbrains-mono-nerd-font
 | lazygit | Git UI inside Neovim |
 | node | Some LSP servers need it |
 
+<img width="2148" height="1276" alt="LazyVim screenshot" src="https://github.com/user-attachments/assets/d20f3ba7-5c7e-4e4d-884a-7ce1aedbf0c4" />
+
 ### Company nvim config
 
 ```bash
@@ -64,8 +66,6 @@ git clone git@github.com:seemethere/nvim-config ~/.config/nvim/
 | `<Space>fg` | Live grep |
 | `<Space>e` | File explorer |
 | `<Space>gg` | LazyGit |
-
-<img width="2148" height="1276" alt="LazyVim screenshot" src="https://github.com/user-attachments/assets/d20f3ba7-5c7e-4e4d-884a-7ce1aedbf0c4" />
 
 ## Claude Code
 
