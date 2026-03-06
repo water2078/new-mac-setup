@@ -44,6 +44,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 ### Company nvim config
 
 ```bash
+sudo feature install neovim
 mv ~/.config/nvim{,.bak}
 git clone git@github.com:seemethere/nvim-config ~/.config/nvim/
 ```
@@ -78,6 +79,7 @@ Meta org plugins (meta, knowledge_search, code_provenance, llm-rules, trajectory
 
 ```bash
 ./msl_infra_claude_setup.sh
+cp .claude/* ~/.claude/
 ```
 
 Installs: `feedstock` skill, `mia` plugin.
