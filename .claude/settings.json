@@ -1,0 +1,27 @@
+{
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "WebFetch",
+      "WebSearch"
+    ]
+  },
+  "enabledPlugins": {
+    "10x-engineer@claude-templates": true,
+    "code_provenance@Meta": true,
+    "data@claude-templates": true,
+    "llm-rules@Meta": true,
+    "meta@Meta": true,
+    "meta_codesearch@Meta": true,
+    "meta_knowledge@Meta": true,
+    "ralph-wiggum@claude-templates": true,
+    "trajectory@Meta": true,
+    "mia@claude-templates": true
+  }
+}

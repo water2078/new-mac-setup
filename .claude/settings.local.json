@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(claude-templates skill:*)",
-      "Bash(echo === Skills in setup script but NOT installed ===:*)"
-    ]
-  }
-}
