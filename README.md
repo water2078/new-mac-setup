@@ -24,15 +24,6 @@ tmux -CC attach
 ssh <dev-gpu>.facebook.com -t "tmux -CC attach -t work || tmux -CC new -s work"
 ```
 
-### Dev Session Script
-
-`dev-session.sh` creates a tmux session with Neovim on the left and Claude Code on the right:
-
-```bash
-./dev-session.sh              # current directory
-./dev-session.sh ~/fbsource   # specific project path
-```
-
 ## Neovim + LazyVim
 
 ```bash
@@ -94,3 +85,12 @@ Installs: `feedstock` skill, `mia` plugin.
 ## iTerm2 Profiles
 
 Import `Profiles.json` via iTerm2 > Settings > Profiles > Other Actions > Import JSON Profiles.
+
+### Dev Session Script
+
+`dev-session.sh` creates a tmux session with Neovim on the left and Claude Code on the right:
+
+```bash
+./dev-session.sh              # current directory
+./dev-session.sh ~/fbsource   # specific project path
+```
