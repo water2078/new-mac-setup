@@ -58,10 +58,10 @@ git clone git@github.com:seemethere/nvim-config ~/.config/nvim/
 
 | Category | Components |
 |----------|------------|
-| Skills (9) | skill-creator, google-sheets, google-docs, google-api-proxy, diff-search, calendar, text-to-google-doc, eats, workplace |
+| Skills (11) | skill-creator, google-sheets, google-docs, google-api-proxy, diff-search, calendar, text-to-google-doc, eats, workplace, paste, mast-debugging |
 | Agents (2) | code-reviewer, coder |
 | Commands (3) | save, restore, learn |
-| Plugins (1) | 10x-engineer |
+| Plugins (2) | 10x-engineer, ralph-wiggum |
 | MCP Servers (6) | metamate, workplace, google_docs, google_sheets, google_chat, graphql_query |
 
 Meta org plugins (meta, knowledge_search, code_provenance, llm-rules, trajectory) auto-install on first `claude` launch.
