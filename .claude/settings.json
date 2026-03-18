@@ -1,6 +1,9 @@
 {
   "env": {
-    "DISABLE_AUTOUPDATER": "1"
+    "DISABLE_AUTOUPDATER": "1",
+    "META_CLAUDE_EXPERIMENTAL_OPUS_FAST": "1",
+    "META_CLAUDE_USE_ANTHROPIC_DIRECT": "1",
+    "META_CLAUDE_USE_GCP_DIRECT": "0"
   },
   "permissions": {
     "allow": [
@@ -12,16 +15,23 @@
       "WebSearch"
     ]
   },
+  "model": "claude-opus-4-6[1m]",
   "enabledPlugins": {
     "10x-engineer@claude-templates": true,
     "code_provenance@Meta": true,
     "data@claude-templates": true,
+    "datamate@claude-templates": true,
     "llm-rules@Meta": true,
     "meta@Meta": true,
     "meta_codesearch@Meta": true,
     "meta_knowledge@Meta": true,
+    "mia@claude-templates": true,
     "ralph-wiggum@claude-templates": true,
-    "trajectory@Meta": true,
-    "mia@claude-templates": true
-  }
+    "trajectory@Meta": true
+  },
+  "effortLevel": "high",
+  "fastMode": true,
+  "enabledSettings": [
+    "enable-fast-mode"
+  ]
 }
