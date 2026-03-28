@@ -4,6 +4,7 @@ Personal setup scripts for a new Mac — tmux, Neovim/LazyVim, Claude Code, and 
 
 ## Prerequisites
 
+Homebrew:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -59,6 +60,39 @@ git clone git@github.com:seemethere/nvim-config ~/.config/nvim/
 | `<Space>e` | File explorer |
 | `<Space>gg` | LazyGit |
 
+## oh-my-zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+cp ./dotfiles/.zshrc ~/.zshrc
+```
+
+## Dotfiles
+
+The `dotfiles/` directory contains config files to copy into your home directory:
+
+```
+dotfiles/
+├── .zshrc                 # oh-my-zsh config
+└── .claude/
+    ├── CLAUDE.md          # Claude Code custom instructions (polished prompt, devserver env)
+    └── settings.json      # Claude Code settings (model, plugins, permissions)
+```
+
+Copy all dotfiles:
+```bash
+cp dotfiles/.zshrc ~/.zshrc
+cp dotfiles/.claude/CLAUDE.md ~/.claude/CLAUDE.md
+cp dotfiles/.claude/settings.json ~/.claude/settings.json
+```
+
+`settings.json` configures:
+- **Model**: `claude-opus-4-6` with fast mode enabled
+- **Permissions**: auto-allows Bash, Edit, Write, NotebookEdit, WebFetch, WebSearch
+- **Plugins**: 10x-engineer, ralph-wiggum, mia, data, datamate, meta_codesearch, meta_knowledge, code_provenance, llm-rules, meta, trajectory
+
 ## Claude Code
 
 ```bash
@@ -79,7 +113,7 @@ Meta org plugins (meta, knowledge_search, code_provenance, llm-rules, trajectory
 
 ```bash
 ./msl_infra_claude_setup.sh
-cp .claude/* ~/.claude/
+cp dotfiles/.claude/* ~/.claude/
 ```
 
 Installs: `feedstock` skill, `mia` plugin.
